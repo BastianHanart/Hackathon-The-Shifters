@@ -7,6 +7,7 @@
 # Idées
 
 - Palette de couleurs : blanc et nuances de vert.
+![Palette de couleurs](Palette_de_couleurs.png)
 
 - Eco Dashboard : qualité de l'air, émissions de CO2, usage des transports, météo et indice UV, parts occupées par des espaces forestiers/agricoles/urbains, données de déforestation, production/consommation d'énergie, % d'énergie renouvelables, empreinte environnementale de la nourriture (bio, Eco-Score), taux de recyclage
 
