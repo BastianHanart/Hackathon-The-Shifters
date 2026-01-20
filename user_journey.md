@@ -15,7 +15,7 @@
 ---
 
 ## Étape 2 : Sélection du Territoire
-L'utilisateur peut alors définit l'échelle géographique qu'il souhaite analyser.
+L'utilisateur peut alors définir l'échelle géographique qu'il souhaite analyser.
 
 ### Option A : Navigation par Échelle Administrative
 L'utilisateur utilise les boutons sélecteurs situés au-dessus de la carte pour filtrer la vue :
@@ -25,7 +25,7 @@ L'utilisateur utilise les boutons sélecteurs situés au-dessus de la carte pour
     * *Action :* L'utilisateur clique sur une zone de la carte pour valider sa sélection.
 
 ### Option B : Recherche Précise (Barre de Recherche)
-L'utilisateur souhaite des données locales spécifiques (Ville).
+L'utilisateur souhaite voir des données locales spécifiques (Ville).
 1.  **Action :** Il se rend sur la barre de recherche située en haut à droite (Barre "Rechercher").
 2.  **Saisie :** Il tape le nom de la ville souhaitée.
 3.  **Validation :** Il lance la recherche pour charger les données locales.
@@ -34,4 +34,3 @@ L'utilisateur souhaite des données locales spécifiques (Ville).
 
 ## Étape 3 : Consultation des Données (Vignettes)
 Une fois le territoire sélectionné (Pays, Région, Département ou Ville), les panneaux à droite s'actualisent instantanément. L'utilisateur consulte alors l'ensemble des données disponibles.
-
