@@ -64,10 +64,8 @@ function Home() {
               alignItems: "flex-start",
               width: "60vw",
               overflowY: "scroll",  // Ça du coup c'est justement le scroll
-              marginTop: "30px",
-              marginBottom: "10px",
-              paddingTop: "10px",
-              boxSizing: "border-box"
+              marginTop: "30px",    //
+              marginBottom: "10px", //Les deux margin pour éviter que ce soit coller aux extrémités
             }}
           >
             <Board />
