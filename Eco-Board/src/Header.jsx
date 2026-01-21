@@ -2,7 +2,7 @@ import Logo from './assets/arbre.png';
 import Filtrer from './assets/filter.png';
 import Rechercher from './assets/Rechercher.png';
 
-function Card() {
+function Header() {
   return (
     <div className="card">
         <div className="left">
@@ -24,4 +24,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Header;

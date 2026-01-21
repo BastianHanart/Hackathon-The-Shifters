@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .card {
   display: flex;
@@ -73,4 +73,57 @@
   cursor: pointer;
   position : absolute;
   right : 0px;
+}
+
+.nav_bar {
+  position: absolute;
+  z-index: 1;
+  border-radius: 100px;
+  background: #2A3013;
+  box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.30);
+  padding: 8px 24px 8px 24px;
+}
+
+.nav_bar_list {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.button_background {
+  background-color: #90A33C;
+  border-radius: 100px;
+  box-shadow: 0 0 5px 0 #90A33C;
+}
+
+.nav_bar_list_button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  filter:
+    drop-shadow(0 0 1px #90A33C)
+    drop-shadow(0 0 1px #90A33C)
+    drop-shadow(0 0 1px #90A33C);
+  font-family: Inter;
+  font-size: 17px;
+  margin: 6px 30px 6px 30px;
+  padding: 0;
+}
+
+.active_button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  filter:
+    drop-shadow(0 0 1px #000000)
+    drop-shadow(0 0 1px #000000)
+    drop-shadow(0 0 1px #000000);
+  font-family: Inter;
+  font-size: 17px;
+  margin: 6px 30px 6px 30px;
+  padding: 0;
 }
