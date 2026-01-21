@@ -34,11 +34,10 @@ function Home() {
           style={{
             display: "flex",
             flex: 1,
-            minHeight: 0,
+            minHeight: 0, //J'ai changé ça pour permettre le scroll interne
           }}
         >
 
-          
           <div 
             className='body_left' 
             style={{
@@ -64,7 +63,7 @@ function Home() {
               justifyContent: "center",
               alignItems: "flex-start",
               width: "60vw",
-              overflowY: "auto",
+              overflowY: "scroll",  // Ça du coup c'est justement le scroll
               marginTop: "30px",
               marginBottom: "10px",
               paddingTop: "10px",
@@ -76,7 +75,7 @@ function Home() {
 
         </div>
 
-        <Background></Background>
+        <Background/>
 
       </div>
 
