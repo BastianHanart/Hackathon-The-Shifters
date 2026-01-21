@@ -34,9 +34,10 @@ function Home() {
           style={{
             display: "flex",
             flex: 1,
-            height: "85vh",
+            minHeight: 0,
           }}
         >
+
           
           <div 
             className='body_left' 
@@ -47,7 +48,6 @@ function Home() {
                 alignItems: "center", 
                 justifyContent: "center", 
                 gap: "20px",
-                backgroundColor: "red"
             }}
           >
             <Navbar choice={choice} setChoice={setChoice}/>
@@ -62,8 +62,13 @@ function Home() {
             style={{
               display: "flex",
               justifyContent: "center",
+              alignItems: "flex-start",
               width: "60vw",
-              backgroundColor: "black"
+              overflowY: "auto",
+              marginTop: "30px",
+              marginBottom: "10px",
+              paddingTop: "10px",
+              boxSizing: "border-box"
             }}
           >
             <Board />
