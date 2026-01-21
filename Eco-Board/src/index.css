@@ -1,36 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
+  position: absolute;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
-  background-color: #2A3013;
-  margin: 0 40px;
-  align-items: center; 
+  background-color: #2A3013;;
+  align-items: center;
   border-radius: 20px;
-  padding-left : 30px;
-  padding-right : 30px;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90vw;
+  margin-top: 1vh;
+}
 
 
 .left {
   display: flex;
   align-items: center;
-  padding: 0 30px;
   gap: 20px;
   
 }
 
 .logo{
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   border-radius: 500px;   
 }
 
 .EcoBoard{  
-  margin: 0;
-  margin-left:30px;
-  font-size: 60px;
+  margin: 0px 0px 0px 10px;
+  font-size: 45px;
   font-family: 'Pacifico', cursive;
   color:white;
   filter:
@@ -43,30 +53,34 @@
   background-color : #90A33C;
   display: flex;
   align-items: center;
-  height: 43px;
+  height: 35px;
   width: fit-content; 
-  padding : 0 10px;
+  padding : 0 0px;
   border-radius : 40px;
   position: relative;
+  padding-right: 10px;
 }
 
 .Filtrer{
-  width:40px;
-  height:50px;
+  cursor: pointer;
+  width:25px;
+  height:35px;
   rotate: 90deg;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .search-bar {
-  padding: 8px 12px;
-  width: 500px;
+  padding: 4px 12px;
+  width: 30vw;
   font-size: 16px;
   font-weight: bold;
   color: black;
 }
 
 .Rechercher{
-  width:40px;
-  height:40px;
+  width:30px;
+  height:30px;
   background-color: #90A33C;
   padding: 8px;
   border-radius: 30px;
