@@ -5,6 +5,7 @@ import France_Pays from './France_Pays.jsx';
 import { useState } from "react";
 import France_Régions from './France_Régions.jsx';
 import France_Départements from './France_Départements.jsx';
+import Board from './DashBoard.jsx';
 
 function Home() {
   const [choice, setChoice] = useState(1);
@@ -20,26 +21,54 @@ function Home() {
         }}
       >
         
-        <div className='header'>
+        <div className='header'
+          style={{
+            height: "15vh",
+          }}
+        >
           <Header />
         </div>
 
         <div 
-          className='body' 
+          className='body'
           style={{
-              display: "flex", 
-              flexDirection: "column", 
-              flex: 1, 
-              width: "40vw", 
-              alignItems: "center", 
-              justifyContent: "center", 
-              gap: "20px",
+            display: "flex",
+            flex: 1,
+            height: "85vh",
           }}
         >
-          <Navbar choice={choice} setChoice={setChoice}/>
-          {choice === 1 ? <France_Pays /> : null}
-          {choice === 2 ? <France_Régions /> : null}
-          {choice === 3 ? <France_Départements /> : null}
+          
+          <div 
+            className='body_left' 
+            style={{
+                display: "flex", 
+                flexDirection: "column",
+                width: "40vw", 
+                alignItems: "center", 
+                justifyContent: "center", 
+                gap: "20px",
+                backgroundColor: "red"
+            }}
+          >
+            <Navbar choice={choice} setChoice={setChoice}/>
+            {choice === 1 ? <France_Pays /> : null}
+            {choice === 2 ? <France_Régions /> : null}
+            {choice === 3 ? <France_Départements /> : null}
+
+          </div>
+            
+          <div 
+            className='body_right'
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              width: "60vw",
+              backgroundColor: "black"
+            }}
+          >
+            <Board />
+          </div>
+
         </div>
 
         <Background></Background>
