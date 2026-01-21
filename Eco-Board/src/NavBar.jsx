@@ -1,8 +1,6 @@
 import './index.css'
-import { useState } from 'react';
 
-function nav_bar() {
-    const [choice, setChoice] = useState(1);
+function nav_bar({choice, setChoice}) {
 
     return(
         <div className="nav_bar">
