@@ -1,16 +1,17 @@
 import Background from './Background.jsx'
-import Card from './nav.jsx'
+import Header from './Header.jsx'
+import Navbar from './NavBar.jsx'
 
-function App() {
+function Home() {
   
   return(
     <>
-    <Card />
+    <Header />
+    <Navbar />
     <Background></Background>
-    
     </>
   );
 
 }
 
-export default App
+export default Home
