@@ -10,13 +10,13 @@
 
 ### Persona 1 :
 
-![Description de l'image](axel.png)
+![Description de l'image](Axel.png)
 
 ### Persona 2 : Sacha
 
-![Description de l'image](sacha.png)
+![Description de l'image](Sacha.png)
 
 ### Persona 3 : Alexia
 
-![Description de l'image](alexia.png)
+![Description de l'image](Alexia.png)
 

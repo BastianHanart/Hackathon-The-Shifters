@@ -21,8 +21,9 @@ L'utilisateur peut alors définir l'échelle géographique qu'il souhaite analys
 L'utilisateur utilise les boutons sélecteurs situés au-dessus de la carte pour filtrer la vue :
 1.  **Pays :** Sélection pour afficher les statistiques globales de la France entière.
 2.  **Régions :** Sélection pour afficher le découpage régional.
-3.  **Départements :** Sélection pour voir les frontières départementales.
-    * *Action :* L'utilisateur clique sur une zone de la carte pour valider sa sélection.
+3.  **Départements :** Sélection pour voir les frontières départementales.  
+
+**Action :** L'utilisateur clique sur une zone de la carte pour préciser sa sélection.
 
 ### Option B : Recherche Précise (Barre de Recherche)
 L'utilisateur souhaite voir des données locales spécifiques (Ville).
