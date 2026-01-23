@@ -1,4 +1,4 @@
-import DashBoard from './assets/DashBoard.svg'
+import DashBoard from './assets/Frame 12.svg'
 import './index.css'
 
 function Dashboard() {
